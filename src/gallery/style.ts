@@ -35,6 +35,7 @@ export const GalleryTitle = styled.h1`
     font-weight: 700;
     color: #fff;
     margin: 0;
+    z-index: 3;
 `;
 
 export const GalleryDescription = styled.p`
@@ -42,13 +43,15 @@ export const GalleryDescription = styled.p`
     font-weight: 400;
     color: #fff;
     margin: 0;
+    z-index: 3;
 `;
 
 
 export const GalleryItem = styled.img`
     height: 300px;
-    width: 300px;
+    min-width: 300px;
     border-radius: 16px;
+    z-index: 3;
 `;
 
 

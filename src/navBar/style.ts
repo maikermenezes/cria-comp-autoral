@@ -9,6 +9,7 @@ export const NavBarContainer = styled.div`
     width: 100%;
     justify-content: space-between;
     padding: 1rem 40px 1rem 1rem;
+    z-index: 3;
 `;
 
 export const Container = styled.div`
@@ -32,6 +33,8 @@ export const LogoContainer = styled.div`
 export const Logo = styled.img`
     height: 4.5rem;
     width: 4.5rem;
+    z-index: 3;
+
 `;
 
 export const NavBarItems = styled.div`

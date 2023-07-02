@@ -19,6 +19,7 @@ export const BannerTitle = styled.h1`
     font-weight: 700;
     color: #fff;
     margin: 0;
+    z-index: 3;
 `;
 
 export const BannerDescription = styled.p`
@@ -28,6 +29,7 @@ export const BannerDescription = styled.p`
     width: 450px;
     margin: 0;
     text-align: center;
+    z-index: 3;
 `;
 
 export const BannerButton = styled.button`
@@ -39,6 +41,7 @@ export const BannerButton = styled.button`
     border: none;
     border-radius: 40px;
     cursor: pointer;
+    z-index: 3;
 `;
 
 

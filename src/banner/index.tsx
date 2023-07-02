@@ -5,9 +5,9 @@ import { BannerContainer, BannerTitle, BannerDescription, BannerButton } from '.
 export const Banner = () => {
     return (
         <BannerContainer>
-            <BannerTitle>Projeto Autoral</BannerTitle>
+            <BannerTitle>Projeto Autoral Grupo 3</BannerTitle>
             <BannerDescription>Este projeto consta e uma galeria com diversos quadrinhos criados utilizando dos modelos X, Y e Z</BannerDescription>
-            <BannerButton>Acesse nosso repositório</BannerButton>
+            <BannerButton>A definir</BannerButton>
         </BannerContainer>
     );
 }

@@ -96,9 +96,9 @@ export const absoluteStyle = css`
 `;
 
 export const CardFront = styled.div`
-height: 300px;
-width: 450px;
-${absoluteStyle}
+    height: 300px;
+    width: 450px;
+    ${absoluteStyle}
 `;
 
 export const CardBack = styled.div`

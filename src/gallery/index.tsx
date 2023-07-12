@@ -14,7 +14,7 @@ export const Gallery = () => {
                 <GalleryGridContainer>
 
                 {cardList.map((item) => {
-                   return <Card imagem={item.image} frase={item.phrase} />
+                   return <Card imagem={item.image} frase={item.phrase} traducao={item.translation}/>
                 })}
 
                 </GalleryGridContainer>

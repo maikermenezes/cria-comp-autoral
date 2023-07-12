@@ -10,7 +10,7 @@ export const GalleryContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 32px 0;
+    padding: 0 0 32px 0;
     gap: 12px;
 `;
 export const GalleryGridExternalContainer = styled.div`

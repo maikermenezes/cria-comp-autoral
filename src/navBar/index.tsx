@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../logo.svg';
+import logo from '../assets/flashi_redondo.png';
 import { Container ,NavBarContainer, LogoContainer, Logo, NavBarItems, NavBarLink } from './style';
 
 export const NavBar = () => {

@@ -1,4 +1,6 @@
-import styled from 'styled-components';
+import styled, { keyframes, css } from 'styled-components';
+
+
 
 export const GalleryContainer = styled.div`
     background-color: transparent;
@@ -46,13 +48,57 @@ export const GalleryDescription = styled.p`
     z-index: 3;
 `;
 
+export const Verso = styled.div`
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 0 2rem;
+    &focus {
+        opacity: 1;
+    }
+`;
+
+// Animation to flip the card
+
+const flipCard = keyframes`
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(180deg);
+    }
+`;
+
 
 export const GalleryItem = styled.img`
+
     height: 300px;
-    min-width: 300px;
+    width: 450px;
     border-radius: 16px;
     z-index: 3;
 `;
+
+export const GalleryCard = styled.div`
+    height: 300px;
+    min-width: 300px;
+    z-index: 3;
+    transform-style: preserve-3d;
+    transition: .5s linear;
+    position: relative;    
+
+`;
+
+
+
 
 
 // export const GalleryItem = styled.div`
@@ -72,3 +118,49 @@ export const GalleryItem = styled.img`
 // `;
 
 
+
+
+export const CardInner = styled.div`
+  position: relative;
+  height: 300px;
+  width: 450px;
+  text-align: center;
+  transition: transform 0.4s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+`;
+
+export const Card = styled.div`
+  background-color: transparent;
+  height: 300px;
+  width: 450px;
+  perspective: 1000px;
+
+  ${CardInner}:hover {
+    transform: rotateY(180deg);
+  }
+`;
+
+export const absoluteStyle = css`
+  position: absolute;
+  height: 300px;
+  width: 450px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+`;
+
+export const CardFront = styled.div`
+height: 300px;
+width: 450px;
+${absoluteStyle}
+`;
+
+export const CardBack = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #A3B8D7;
+  color: black;
+  transform: rotateY(180deg);
+  ${absoluteStyle}
+`;

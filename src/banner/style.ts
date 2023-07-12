@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const BannerContainer = styled.div`
     width: 100%;
-    height: 720px;
+    height: 650px;
     display: flex;
     flex-direction: column;
     position: relative;

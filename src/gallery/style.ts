@@ -48,37 +48,6 @@ export const GalleryDescription = styled.p`
     z-index: 3;
 `;
 
-export const Verso = styled.div`
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 300px;
-    height: 300px;
-    background-color: white;
-    border-radius: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    padding: 0 2rem;
-    &focus {
-        opacity: 1;
-    }
-`;
-
-// Animation to flip the card
-
-const flipCard = keyframes`
-    from {
-        transform: rotateY(0deg);
-    }
-    to {
-        transform: rotateY(180deg);
-    }
-`;
-
-
 export const GalleryItem = styled.img`
 
     height: 300px;
@@ -96,29 +65,6 @@ export const GalleryCard = styled.div`
     position: relative;    
 
 `;
-
-
-
-
-
-// export const GalleryItem = styled.div`
-//     background-color: #ffffff;
-//     height: 40vh;
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     justify-content: center;
-//     padding: 0 2rem;
-// `;
-
-// export const GalleryImage = styled.img`
-//     height: 200px;
-//     width: 200px;
-//     border-radius: 16px;
-// `;
-
-
-
 
 export const CardInner = styled.div`
   position: relative;

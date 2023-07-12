@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import logwood from "../assets/logwood3.png";
 import logo from "../assets/opcao_final.png";
 
 export const BannerContainer = styled.div`

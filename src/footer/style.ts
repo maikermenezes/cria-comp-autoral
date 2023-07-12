@@ -17,6 +17,7 @@ export const FooterInternalContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 2rem;
     justify-content: center;
 `;
 
@@ -24,13 +25,18 @@ export const FooterTitle = styled.h1`
     font-size: 24px;
     font-weight: 700;
     color: #fff;
+    @media screen and (max-width: 768px) {
+        font-size: 20px;
+        text-align: center;
+        flex-wrap: wrap;
+    }
 `;
 
-export const FooterDescription = styled.p`
-    font-size: 16px;
-    font-weight: 400;
-    color: #fff;
+export const FooterImage = styled.img`
+    width: 100px;
 `;
+
+
 
 
 

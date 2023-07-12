@@ -11,7 +11,7 @@ export const GalleryContainer = styled.div`
     align-items: center;
     justify-content: center;
     padding: 32px 0;
-    gap: 8px;
+    gap: 12px;
 `;
 export const GalleryGridExternalContainer = styled.div`
     background-color: transparent;

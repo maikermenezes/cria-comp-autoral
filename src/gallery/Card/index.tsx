@@ -20,7 +20,7 @@ export const Card = ( {imagem, frase, traducao}:CardProps ) => {
                 </CardFront>
                 <CardBack>
                     <CardPhrase>
-                    {frase}
+                        {frase}
                     </CardPhrase>
                     <CardTranslation>
                         {traducao}

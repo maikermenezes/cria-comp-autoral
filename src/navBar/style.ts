@@ -9,7 +9,7 @@ export const NavBarContainer = styled.div`
     width: 100%;
     justify-content: space-between;
     padding: 1rem 40px 1rem 1rem;
-    z-index: 3;
+    z-index: 5;
 `;
 
 export const Container = styled.div`

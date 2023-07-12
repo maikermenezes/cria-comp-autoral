@@ -9,9 +9,9 @@ export const Banner = () => {
             <BannerImage src={logo} />
             <BannerInfoContainer>
                 <BannerTitle>Projeto Autoral Grupo 3</BannerTitle>
-                <BannerDescription>Este site consta de uma galeria com diversas flash cards criados utilizando dos modelos X, Y e Z</BannerDescription>
+                <BannerDescription>Este site consta de uma galeria com diversas flash cards criados utilizando de modelos como Stable Diffusion, DALL-E 2 e Chat GPT</BannerDescription>
                 <BannerButton>
-                    <NotionLink href="https://www.notion.so/Grupo-3-c240db2ff232432c83b1e1a961f73802?pvs=4" target="_blanc"> 
+                    <NotionLink href="https://royal-settee-903.notion.site/Documenta-o-56aaf176cf4f4793b0bbe0c603c8d278" target="_blanc"> 
                         Nossa documentação
                     </NotionLink>
                 </BannerButton>

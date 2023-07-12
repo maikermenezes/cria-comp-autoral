@@ -5,6 +5,11 @@ export const CardImage = styled.img`
     width: 450px;
     border-radius: 16px;
     z-index: 3;
+
+    @media screen and (max-width: 768px) {
+        height: 200px;
+        width: 300px;
+    }
 `;
 
 export const CardInner = styled.div`
@@ -16,6 +21,11 @@ export const CardInner = styled.div`
   transition: transform 0.4s;
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  @media screen and (max-width: 768px) {
+    height: 200px;
+    width: 300px;
+  }
 `;
 
 export const CardContainer = styled.div`
@@ -29,6 +39,11 @@ export const CardContainer = styled.div`
   ${CardInner}:hover {
     transform: rotateY(180deg);
   }
+
+  @media screen and (max-width: 768px) {
+    height: 200px;
+    width: 300px;
+  }
 `;
 
 export const absoluteStyle = css`
@@ -38,6 +53,10 @@ export const absoluteStyle = css`
   z-index: 3;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  @media screen and (max-width: 768px) {
+    height: 200px;
+    width: 300px;
+  }
 `;
 
 export const CardFront = styled.div`
@@ -45,6 +64,10 @@ export const CardFront = styled.div`
     border-radius: 16px;
     width: 450px;
     ${absoluteStyle}
+    @media screen and (max-width: 768px) {
+      height: 200px;
+      width: 300px;
+    }
 `;
 
 export const CardBack = styled.div`
@@ -54,14 +77,18 @@ export const CardBack = styled.div`
   justify-content: center;
   flex-direction: column;
   gap: 8px;
-  background-color: #A3B8D7;
-  color: black;
+  background-color: #EB7C54;
+  color: #fff;
   transform: rotateY(180deg);
   ${absoluteStyle}
+  @media screen and (max-width: 768px) {
+    height: 200px;
+    width: 300px;
+  }
 `;
 
 export const CardPhrase = styled.p`
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   `;
 

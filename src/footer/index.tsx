@@ -6,8 +6,8 @@ export const Footer = () => {
     return (
         <FooterContainer>
             <FooterInternalContainer>
-                <FooterTitle>Hi, I'm a footer</FooterTitle>
-                <FooterDescription>And I'm a description</FooterDescription>
+                <FooterTitle>Criatividade Computacional - CIn UFPE</FooterTitle>
+                <FooterDescription></FooterDescription>
             </FooterInternalContainer>
         </FooterContainer>
     );

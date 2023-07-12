@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const FooterContainer = styled.div`
+    background-color: #222021;
     height: 200px;
     width: 100%;
     display: flex;
@@ -8,7 +9,8 @@ export const FooterContainer = styled.div`
     align-items: center;
     justify-content: center;
     padding: 0 2rem;
-    box-shadow: 0px -8px 20px 2px rgba(250,250,250,0.1)
+    box-shadow: 0px -8px 20px 2px rgba(250,250,250,0.1);
+    z-index: 3;
 `;
 
 export const FooterInternalContainer = styled.div`
@@ -29,6 +31,8 @@ export const FooterDescription = styled.p`
     font-weight: 400;
     color: #fff;
 `;
+
+
 
 
 

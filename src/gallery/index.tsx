@@ -1,30 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logwood from "../assets/logwood3.png";
-import { GalleryGridContainer, GalleryGridExternalContainer, GalleryContainer, GalleryTitle, GalleryDescription, GalleryItem } from './style';
+import { GalleryGridContainer, GalleryGridExternalContainer, GalleryContainer, GalleryTitle, GalleryDescription } from './style';
+import { Card } from './Card'
+import { cardList } from'../object'
 
 export const Gallery = () => {
+
     return (
         <GalleryContainer>
             <GalleryTitle>Galeria</GalleryTitle>
-            <GalleryDescription>Quadrinhos criados pela equipe</GalleryDescription>
+            <GalleryDescription>Flash cards criados pela equipe</GalleryDescription>
             <GalleryGridExternalContainer>
                 <GalleryGridContainer>
-                    <GalleryItem src={logwood}/>
-                    <GalleryItem src={logwood}/>
-                    <GalleryItem src={logwood}/>
-                    <GalleryItem src={logwood}/>
-                    <GalleryItem src={logwood}/>
-                    <GalleryItem src={logwood}/>
-                    <GalleryItem src={logwood}/>
-                    <GalleryItem src={logwood}/>
-                    <GalleryItem src={logwood}/>
-                    <GalleryItem src={logwood}/>
-                    <GalleryItem src={logwood}/>
-                    <GalleryItem src={logwood}/>
-                    <GalleryItem src={logwood}/>
-                    <GalleryItem src={logwood}/>
-                    <GalleryItem src={logwood}/>
-                    <GalleryItem src={logwood}/>
+
+                {cardList.map((item) => {
+                   return <Card imagem={item.image} frase={item.phrase} traducao={item.translation}/>
+                })}
+
                 </GalleryGridContainer>
             </GalleryGridExternalContainer>
         </GalleryContainer>

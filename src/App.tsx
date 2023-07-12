@@ -1,8 +1,9 @@
-import { MainContainer } from "./style";
+import { MainContainer, BackgroundImg } from "./style";
 import { NavBar } from "./navBar";
 import { Footer } from "./footer";
 import { Banner } from "./banner";
-import { Gallery } from "./gallery";
+import { Gallery } from "./gallery"; 
+import Vector from "./assets/Vector.png";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Banner />
       <Gallery />
       <Footer />
+      <BackgroundImg src={Vector}/>
     </MainContainer>
   );
 }

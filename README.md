@@ -26,5 +26,3 @@ Felipe Souza (frs3)\
 Camila Xavier (cxm)\
 Breno Cavalcanti (bmmuc)\
 Bianca Duarte (bds)
-
-![Logo](https://drive.google.com/uc?id=1VXq6GXJtXC3lLqEk5VOGFvMMeDi22wcE)

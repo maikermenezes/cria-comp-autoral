@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import logwood from "../assets/logwood3.png";
+import React from 'react';
 import { GalleryGridContainer, GalleryGridExternalContainer, GalleryContainer, GalleryTitle, GalleryDescription } from './style';
 import { Card } from './Card'
 import { cardList } from'../object'

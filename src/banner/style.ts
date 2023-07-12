@@ -14,13 +14,21 @@ export const BannerContainer = styled.div`
     justify-content: center;
     padding: 0 2rem;
     gap: 32px;
+    z-index: 3;
+`;
+
+export const BannerInfoContainer = styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 0 2rem;
+    gap: 32px;
 `;
 
 export const BannerImage = styled.img`
-    position: absolute
-    top: 60px;
-    
-    left: 0;
+    width: 500px;
+    z-index: 0;
 `;
 
 export const BannerTitle = styled.h1`

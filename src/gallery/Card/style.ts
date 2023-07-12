@@ -77,8 +77,8 @@ export const CardBack = styled.div`
   justify-content: center;
   flex-direction: column;
   gap: 8px;
-  background-color: #A3B8D7;
-  color: black;
+  background-color: #EB7C54;
+  color: #fff;
   transform: rotateY(180deg);
   ${absoluteStyle}
   @media screen and (max-width: 768px) {
@@ -88,7 +88,7 @@ export const CardBack = styled.div`
 `;
 
 export const CardPhrase = styled.p`
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   `;
 

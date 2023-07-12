@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import logo from "../assets/opcao_final.png";
 
 export const BannerContainer = styled.div`
     width: 100%;
@@ -55,7 +54,7 @@ export const BannerDescription = styled.p`
 `;
 
 export const BannerButton = styled.button`
-    background-color: #A3B8D7;
+    background-color: #EB7C54;
     color: #ffffff;
     font-size: 1.5rem;
     font-weight: 400;
